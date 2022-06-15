@@ -1,0 +1,107 @@
+.main-content {
+    display: grid;
+    grid-template-columns: 300px 700px;
+    margin: 2px auto;
+    min-height: 1000px;
+    width: 90%;
+}
+
+.left-section {
+    background-color: cadetblue;
+}
+
+.right-section {
+    background-color: rgb(196, 183, 202);
+}
+
+.left-content {
+    padding: 1rem;
+}
+
+.profile img {
+    display: block;
+    margin: auto;
+    border: 5px solid white;
+    border-radius: 30%;
+    width: 60%;
+}
+
+.name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.02px;
+    padding: 0.8rem;
+}
+
+.designation {
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+
+.line {
+    border: 2px solid wheat;
+    border-radius: 1px;
+    color: blanchedalmond;
+
+}
+
+.description {
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    font-size: 25px;
+    color: crimson;
+}
+
+.icons1 {
+    padding-left: 10px;
+}
+
+.skills-title {
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 0.5rem;
+}
+
+.skills-name {
+    font-size: 0.65rem;
+    font-weight: 0.65rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+}
+
+.progress-bar {
+    border: 2px solid white;
+    height: 4px;
+}
+
+.right-main-content {
+    padding: 2rem 3rem;
+}
+
+.right-title {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 674px){
+    .right-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
